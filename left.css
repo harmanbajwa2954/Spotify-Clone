@@ -1,0 +1,171 @@
+.left {
+    width: 25vw;
+    /* position: fixed; */
+    position: relative;
+}
+
+/* App logo and home section */
+.home {
+    width: 24vw;
+    /* box-sizing: border-box; */
+}
+.close{
+    position: absolute;
+    width: 30px;
+    right: 10px;
+    top:30px;
+    display: none;
+    border-radius: 50%;
+    padding: 3px;
+}
+
+.home ul {
+    padding: 3px 5px;
+    font-weight: 600;
+}
+
+.logo {
+    margin-bottom: 15px;
+}
+
+.home ul li {
+    width: 25px;
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 5px;
+    align-items: center;
+}
+
+/* Library section */
+
+.library {
+    width: 24vw;
+    min-height: 72vh;
+    position: relative;
+}
+
+.lib {
+    gap: 15px;
+    color: #B1B1B1;
+    cursor: pointer;
+}
+
+.lib img {
+    width: 25px;
+}
+
+.add {
+    width: 17px;
+    height: 17px;
+    position: absolute;
+    right: 15px;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.footer {
+    display: flex;
+    color: #B1B1B1;
+    font-size: 12px;
+    flex-wrap: wrap;
+    gap: 20px;
+    text-align: start;
+    /* justify-content: center; */
+    position: absolute;
+    bottom: 8vh;
+    margin-bottom: 10px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #B1B1B1;
+}
+
+.lang {
+    position: absolute;
+    left: 0px;
+    bottom: -50px;
+}
+
+.lang button {
+    display: flex;
+    background-color: rgb(42, 42, 42);
+    border: 1px solid #B1B1B1;
+    border-radius: 20px;
+    color: #e0dede;
+    padding: 5px 10px;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    align-items: center;
+}
+
+.lang button img {
+    width: 15px;
+    margin-right: 5px;
+}
+
+.lang button span {
+    text-align: center;
+}
+
+/* This section is for songlist in Library section in Left pane */
+.songlist {
+    padding-top: 10px;
+    height: 47vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.songlist ul {
+    padding: 0px 12px;
+    /* overflow: scroll; */
+}
+
+.songlist ul li {
+    list-style-type: none;
+    display: flex;
+    cursor: pointer;
+    font-size: 14px;
+    color: #B1B1B1;
+    gap: 20px;
+    position: relative;
+    align-items: center;
+    padding: 12px 0px;
+}
+.Sinfo{min-width: 0;}
+.Sinfo h4 {
+    color: white;
+    font-size: 16px;
+    text-wrap: wrap;
+}
+.hidden{
+    display: none;
+}
+
+.songlist ul li svg {
+    width: 30px;
+    height: 30px;
+    margin-left: 15px;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+    z-index: 11;
+}
+
+.songlist ul li:hover svg {
+    opacity: 1;
+}
+
+.songlist ul li:hover img {
+    filter: brightness(40%);
+}
+
+.songlist ul li img {
+    width: 35px;
+    height: 35px;
+    border-radius: 8px;
+    z-index: 10;
+    position: absolute;
+    left: 10px;
+}

@@ -1,0 +1,257 @@
+
+/* Styling for the right side starts here  */
+.right {
+    width: 75vw;
+    margin: 15px 10px;
+    position: relative;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(10, 10, 10);
+    
+}
+.hamburger{
+    padding: 5px;
+    width: 20px;
+    border-radius: 50%;
+    display: none;
+}   
+.nav {
+    display: flex;
+    gap: 15px;
+}
+
+.nav img {
+    padding: 5px;
+    width: 20px;
+    border-radius: 50px;
+}
+
+.sign {
+    display: flex;
+    gap: 10px;
+}
+
+.sign button {
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 20px;
+    border: none;
+    padding: 10px 20px;
+}
+
+.sign button:first-child {
+    background-color: inherit;
+    color: #B1B1B1;
+}
+
+/* Area to display playlists and song cards */
+
+.main {
+    max-height: 83vh;
+    /* min-height: 50vh; */
+    overflow-y: scroll;
+    background-image: linear-gradient(RGB(47, 38, 91),rgb(38, 38, 38), rgb(18, 18, 18));
+}
+
+.main>* {
+    padding: 10px;
+    margin: 10px;
+}
+
+.cardContainer {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 10px;
+    padding: 0px;
+    height: 64.7vh;
+}
+
+.card {
+    /* width: 11vw; */
+    padding: 7px;
+    position: relative;
+    overflow: hidden;
+    flex: 1 1 160px;
+    min-width: 100px;
+    max-width: 200px;
+}
+.card :hover{
+    z-index: 30;
+}
+.card p{
+    height: 35px;
+}
+
+.card>* {
+    padding: 7px;
+}
+
+.card img {
+    /* padding: 0; */
+    width: 90%;
+    text-align: center;
+    object-fit: contain;
+    border-radius: 13px;
+}
+.playButton {
+    background-color: rgb(29, 212, 95);
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    display: flex;
+    align-items: flex-end;
+    padding: 3px;
+    justify-content: center;
+    cursor: pointer;
+    text-align: center;
+    position: absolute;
+    right: 12%;
+    top: 45%;
+    opacity: 0;
+    transform: translateY(65%);
+    transition: opacity 0.2s ease-in-out, transform 0.2s ease-in-out ;
+}
+.playButton:hover {
+  background-color: rgb(48, 249, 121);
+}
+.card:hover .playButton{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* This is for playbar styling that  is at the bottom of the right pane */
+
+.playBar{
+    position: absolute;
+    bottom:0px;
+    background-color: rgb(8,8,8);
+    width: 98.3%;
+    padding: 10px;
+    height: 10vh;
+    /* z-index: 10; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0px 0px 7px 7px;
+}
+
+.player-controls {
+    position: absolute;
+    bottom:30px;
+
+  display: flex;
+  padding: 0px;
+  align-items: center; /* Perfect vertical alignment */
+  justify-content: space-around; /* spacing between buttons */
+  /* margin-bottom: 18px; */
+  
+}
+
+.controlButtons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.playnow{
+    background-color: white;
+    border-radius: 50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 3px;
+    object-position: right;
+    width: 32px;
+    height: 32px;
+}
+.previous {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: end;
+    object-position: bottom;
+    width: 40px;
+    height: 40px;
+    margin: 0 15px;
+    padding-top: 5px;
+}
+.previous svg:hover{
+    fill: white;
+}
+/* seek bar */
+.seekBar{
+    height: 4px;
+    width: 40%;
+    position: absolute;
+    bottom: 15px;
+    background-color: #B1B1B1;
+    border-radius: 10px;
+    transition: height 0.3s ease;
+    cursor: pointer;
+}
+.seekBar:hover{
+    height: 8px;
+}
+.circle{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    bottom: -5px;
+    will-change: transform;
+    transition: transform 0.3s ease,left 0.5s ease;
+}
+.circle:active{
+    transform: scale(1.1);
+}
+.songInfo{
+    color:#B1B1B1;
+    /* z-index: 12; */
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    text-wrap: wrap;
+    max-width: 20vw;
+}
+.songtime{
+    color: #B1B1B1;
+    position: absolute;
+    right: -110px;
+    bottom: -6px;
+}
+.volume{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    position: absolute;
+    width: 170px;
+    height: 30px;
+    /* justify-content: end; */
+    padding: 0px;
+    top: 20px;
+    right: 50px;
+}
+.volume img{
+    border-radius: 50%;
+    padding: 2px;
+    height: 28px;
+    width: 28px;
+    cursor: pointer;
+}
+.volume img:hover{
+    stroke: white;
+}
+.rangeVol input{
+    cursor: grab;
+}
+
