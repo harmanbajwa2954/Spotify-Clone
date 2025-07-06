@@ -1,5 +1,17 @@
 {
-    "title":"Western Beats",
-    "description": "Hot hits from your favourite artists !!",
-    "data_folder": "English"
+  "title": "English Favorites",
+  "description": "A collection of trending and classic English tracks.",
+  "data_folder": "English",  
+  "tracks": [
+    "DJ Shadow, Mos Def - Six Days - Remix.mp3",
+    "Ed Sheeran - Sapphire.mp3",
+    "Geek Music - Where Is My Mind (From 'Fight Club').mp3",
+    "Glass Animals - Heat Waves.mp3",
+    "Jim Croce - Time in a Bottle.mp3",
+    "Lady Gaga, Bruno Mars - Die With A Smile.mp3",
+    "Post Malone, Swae Lee - Sunflower - Into the Spider-Verse.mp3",
+    "Sia - Snowman.mp3",
+    "The Weeknd - Blinding Lights.mp3",
+    "The Weeknd - Popular (with Playboi Carti & Madonna) - From The Idol.mp3"
+  ]
 }

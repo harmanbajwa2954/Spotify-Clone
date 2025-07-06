@@ -1,5 +1,14 @@
 {
-    "title":"Bollywood Bash",
-    "description": "Dhamakedar Bollywood hits from your favourite artists !!",
-    "data_folder" : "Hindi"
+  "title": "Bollywood Hits",
+  "description": "A selection of emotional, romantic, and high-energy tracks from Bollywood cinema.",
+  "data_folder": "Hindi",
+  "tracks": [
+    "Atif Aslam, Jyotica Tangri - O Meri Laila.mp3",
+    "Pritam, Arijit Singh - Kalank - Title Track.mp3",
+    "Sachet Tandon, Sachet-Parampara - Bekhayali (From 'Kabir Singh').mp3",
+    "Shankar-Ehsaan-Loy, Shreya Ghoshal, Javed Bashir, Yusuf M - Bhaag Milkha Bhaag.mp3",
+    "Sohail Sen, Rahat Fateh Ali Khan, Irshad Kamil - Isq Risk.mp3",
+    "Sukhwinder Singh, Vishal Dadlani, Robert Bob Omulo - Kaminey.mp3",
+    "Vishal-Shekhar, Sukhwinder Singh - Dard - E - Disco.mp3"
+  ]
 }

@@ -1,5 +1,11 @@
 {
     "title" : "Nihongo Treats",
     "description": "Listen to your favourite Anime OSTs !!",
-    "data_folder": "japanese"
+    "data_folder": "japanese",
+    "tracks": [
+        "Miki Matsubara - Mayonaka no Door  Stay With Me.mp3",
+        "Rascal does not dream - 不可思議のカルテ All Heroine Ver.mp3",
+        "YOASOBI - Idol.mp3",
+        "YOASOBI - アイドル.mp3"
+    ]
 }

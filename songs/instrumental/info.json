@@ -1,5 +1,11 @@
 {
     "title" : "Classical Instrumental",
     "description" : "Listen to the classical beats on classical instruments !!",
-    "data_folder" : "instrumental"
+    "data_folder" : "instrumental",
+    "tracks":[
+        "Camille Saint-Saëns, Polish National Orchestra - Rondo capriccioso in A Minor, Op. 28.mp3",
+        "Fritz Kreisler, Sergei Rachmaninoff, RueiBin Chen - Liebesleid (Love's Sorrow).mp3",
+        "Ludwig van Beethoven - Fur Elise.mp3",
+        "Ludwig van Beethoven-Moonlight Sonata(Piano Sonata No.14, Op.27 No. 2).mp3"
+    ]
 }

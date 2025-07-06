@@ -1,5 +1,12 @@
 {
     "title":"Popular OSTs",
     "description" : "Here are some iconic Original Soundtracks for you only !!",
-    "data_folder" : "gaming"
+    "data_folder" : "gaming",
+    "tracks" :[
+        "Alan Silvestri - Portals.mp3",
+        "John Williams - The Imperial March(Darth Vader's Theme).mp3",
+        "John Murphy - In the House - In a Heartbeat.mp3",
+        "Michael Hunter - Soviet Connection (Theme from GTA IV).mp3",
+        "Ramin Djawadi - A Song of Ice and Fire.mp3"
+    ]
 }

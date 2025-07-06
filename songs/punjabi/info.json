@@ -1,5 +1,18 @@
 {
-    "title": "Punjabi Hits",
-    "description": "Ultimate Punjabi Hits with your favorite artists !!",
-    "data_folder": "punjabi"
+  "title": "Punjabi Collection",
+  "description": "Top Punjabi tracks featuring legends like Sidhu Moosewala, Diljit Dosanjh and more...",
+  "data_folder": "punjabi",
+  "tracks": [
+    "Amrinder Gill - Supna.mp3",
+    "Diljit Dosanjh - Born to Shine.mp3",
+    "Diljit Dosanjh - Hoops.mp3",
+    "Karan Aujla - ANTIDOTE.mp3",
+    "Maanu, Annural Khalid - Jhol.mp3",
+    "Navaan Sandhu, Homeboy, Kaater - Ambarsaria.mp3",
+    "Sidhu Moose Wala - 295.mp3",
+    "Sidhu Moosewala - GOAT.mp3",
+    "Sidhu Moose Wala - Everybody Hurts.mp3",
+    "Sidhu Moose Wala, JayB Singh - Take Notes.mp3",
+    "Sidhu Moose Wala, Sunny Malton, SOE - Never Fold.mp3"
+  ]
 }
